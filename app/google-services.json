@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "326297290890",
+    "firebase_url": "https://plick-771ea.firebaseio.com",
+    "project_id": "plick-771ea",
+    "storage_bucket": "plick-771ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326297290890:android:88d0cc3fc596abad",
+        "android_client_info": {
+          "package_name": "com.google.parth.plick20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326297290890-58d1251i585eeqveb2lvh16shfn89bum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS7KGsqiZ41tCMiX5AETJqbi_WFQbvqJo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

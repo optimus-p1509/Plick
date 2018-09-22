@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get A Place"
+        android:id="@+id/mapButton"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:background="@color/com_facebook_button_background_color"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PlaceName"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:id="@+id/placeName"
+        android:layout_alignParentTop="true"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PlaceAddress"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        android:padding="5dp"
+        android:id="@+id/placeAddress"
+        android:gravity="center"
+        android:layout_below="@+id/placeName"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/attributes"
+        android:layout_below="@+id/placeAddress"
+        android:layout_marginTop="10dp"/>
+        </RelativeLayout>
